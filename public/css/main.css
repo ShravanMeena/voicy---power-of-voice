@@ -377,6 +377,12 @@ button span {
 
 .noResults {
     padding: var(--spacing);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
 }
 
 .resultsContainer {

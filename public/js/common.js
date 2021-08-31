@@ -579,8 +579,7 @@ function outputUsers(results, container) {
     });
 
     if(results.length == 0) {
-        container.append("<span class='noResults'>No results found</span>")
-    }
+        container.append("<span class='noResults'>Nothing to show.</span>")    }
 }
 
 function createUserHtml(userData, showFollowButton) {
